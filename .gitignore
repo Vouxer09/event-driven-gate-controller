@@ -1,0 +1,9 @@
+ # IntelliJ / IDEs
+ .idea/
+ *.iml
+
+ # Maven / Gradle
+ target/
+
+ # OS
+ .DS_Store
