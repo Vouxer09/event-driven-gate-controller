@@ -154,6 +154,14 @@ Only the event sources and outputs would change — the core logic remains valid
 
 These choices were made to keep the focus on architecture, not tooling.
 
+## Run the simulation
+
+``` bash
+git clone https://github.com/Vouxer09/event-driven-gate-controller
+cd event-driven-gate-controller
+mvn clean compile
+mvn exec:java
+```
 ## Final note
 
 This project represents how I approach software:
